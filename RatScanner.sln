@@ -5,6 +5,11 @@ VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RatScanner", "RatScanner\RatScanner.csproj", "{6C9373BE-454F-4A4A-850E-17AC27C76992}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RatEye-master", "RatEye-master", "{7DBBDB03-1F95-4669-B56E-E74BE8009BC6}"
+	ProjectSection(SolutionItems) = preProject
+		RatEye-master\test = RatEye-master\test
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,5 +38,7 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D6B0444-0DC5-4640-AFC4-09E0F271F0F0}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
